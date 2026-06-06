@@ -1,0 +1,24 @@
+{
+  "name": "dependency-update-explainer",
+  "version": "0.1.0",
+  "description": "Explain package-lock dependency changes in plain English.",
+  "type": "module",
+  "bin": {
+    "dep-explain": "./bin/dep-explain.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node ./bin/dep-explain.js"
+  },
+  "keywords": [
+    "developer-tools",
+    "ai",
+    "cli",
+    "github"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
