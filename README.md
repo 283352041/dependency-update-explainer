@@ -7,3 +7,7 @@ node ./bin/dep-explain.js package-lock.before.json package-lock.json
 ```
 
 Useful for PRs where dependency updates are hard to review from lockfile diffs alone.
+
+## Review Notes
+
+Use this before reviewing dependency-only PRs. It turns lockfile churn into a short list of added, removed, and updated packages.
